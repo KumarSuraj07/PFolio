@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Portfolio</title>
+  <meta name="title" content="Suraj - Web Developer">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/pf.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="assets/images/pf.png" width="80" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="assets/CV.pdf" target="_blank" class="navbar-link">Resume</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#art" class="navbar-link">Art Works</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Kumar Suraj</h1>
+
+            <p class="hero-subtitle">
+              Front-End Web Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner.png" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Greetings from my portfolio! I am a Computer Science Engineering (CSE) student with
+              an unwavering passion for technology and a soulful connection to music as a guitarist.
+              I am passionate about using technology to tackle challenging issues and provide original solutions
+            </p>
+
+            <a href="assets/CV.pdf" target="_blank" class="btn has-before">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-labelledby="service-label" id="projects">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Demo of what I've Learned so far
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Projects</h2>
+            </div>
+
+            <!-- <p class="section-text">
+              Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
+              velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
+              ornare.
+            </p> -->
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">The Acoustic</h3>
+
+                  <p class="card-text">
+                    The_Acoustic is a thoughtfully crafted website designed for music enthusiasts, particularly
+                    guitarists, to learn and explore their favorite songs. It features an extensive collection of guitar
+                    chords, complete with clear diagrams and tabs, to make learning accessible and enjoyable.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">To-Do List</h3>
+
+                  <p class="card-text">
+                    The Todo List WebApp is a simple online application created to assist users in remaining organised
+                    and effective in their everyday chores. This software is the ideal digital assistant for keeping
+                    track of your to-do lists because it has a simple user interface.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Day and Night Toggle Button</h3>
+
+                  <p class="card-text">
+                    I’ve created a toggle button in Figma that switches between light and dark modes. In light mode,
+                    it displays a sun icon, and in dark mode, it changes to a moon with dark clouds. This design
+                    provides a clear and engaging way for users to switch themes.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <!-- <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">React Chat-App</h3>
+
+                  <p class="card-text">
+                    Designed and developed a real-time chat application using React JS, integrating local storage for
+                    persistent messaging. Responsibilities including UI/UX design, state management with context API,
+                    and ensuring seamless navigation with React Router.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li> -->
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Chordify</h3>
+
+                  <p class="card-text">
+                    I’ve designed an intuitive app prototype in Figma that helps music enthusiasts access chords, notes,
+                    and tabs for their favorite songs all in one place. Whether you’re a beginner or seasoned player,
+                    Chordify provides easy-to-follow guides to play the music you love. Dive into the tunes you enjoy,
+                    and let Chordify simplify your learning journey!"
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">React Chat-App</h3>
+
+                  <p class="card-text">
+                    Designed and developed a real-time chat application using React JS, integrating local storage for
+                    persistent messaging. Responsibilities including UI/UX design, state management with context API,
+                    and ensuring seamless navigation with React Router.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">skills I’ve Learned so far</p>
+
+          <h2 class="h2 section-title">My Skills</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                The technological revolution is changing aspects of our lives, and the fabric of society itself. It's
+                also changing the way we learn and what we learn.
+              </p>
+
+              <p class="section-text">
+                Factual knowledge is less prized when everything you ever need to know can be found on your phone.
+                There's no imperative to be an expert at doing everything when you can collaborate with specialists.
+              </p>
+
+              <a href="https://github.com/KumarSuraj07" target="_blank" class="btn has-before">Github Account</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">HTML, CSS</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Java Script</p>
+
+                    <data class="progress-value" value="60">60%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 60%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Core Java</p>
+
+                    <data class="progress-value" value="70">70%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 70%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Figma</p>
+
+                    <data class="progress-value" value="75">75%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label" id="art">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Some of my Art Works</p>
+
+            <h2 class="h2 section-title">Anime Sketches</h2>
+          </div>
+
+          <p class="section-text">
+            Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
+            velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
+            ornare.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 800; --height: 600;">
+
+                <img src="./assets/images/Coffee Girl.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <!-- <h3 class="h3 card-title">Lab. 001</h3>
+
+                  <p class="card-text">Website Design</p> -->
+                </div>
+
+                <a href="#art" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/Frustation.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <!-- <h3 class="h3 card-title">Aer Agency</h3>
+
+                  <p class="card-text">Website / Development</p> -->
+                </div>
+
+                <a href="#art" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 800; --height: 600;">
+
+                <img src="./assets/images/Kakashi.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <!-- <h3 class="h3 card-title">Joker Card</h3>
+
+                  <p class="card-text">UX Design / Web App</p> -->
+                </div>
+
+                <a href="#art" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 800;">
+
+                <img src="./assets/images/Winter.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <!-- <h3 class="h3 card-title">Peaky Blinders</h3>
+
+                  <p class="card-text">Website / UX Design</p> -->
+                </div>
+
+                <a href="#art" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <!-- <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Design Zoom</h3>
+
+                  <p class="card-text">Branding / Design</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li> -->
+
+            <!-- <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Out Zone</h3>
+
+                  <p class="card-text">UX Design / Web App</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:ksurajk2001@gmail.com" class="footer-link">ksurajk2001@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">INDIA — Jharkhand, Ranchi</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://x.com/SurajKu97942371" target="_blank" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/k_u_m_a_r_s_u_r_a_j/" target="_blank" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://secure.skype.com/portal/overview" target="_blank" class="social-link">
+            <ion-icon name="logo-skype"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/suraj-kumar-06253922b/" target="_blank" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
